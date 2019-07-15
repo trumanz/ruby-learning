@@ -1,0 +1,41 @@
+{
+  "name": "json-gui",
+  "title": "JSONGUI",
+  "description": "JSON Schema based GUI",
+  "version": "0.0.1",
+  "main": "dist/jsongui.js",
+  "author": {
+    "name": "Truman Zhou",
+    "email": "truman.ck.zhou@gmail.com",
+    "url": "dummy.com"
+  },
+  "bugs": {
+    "url": "https://github.com/trumanz/json-gui/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trumanz/json-gui.git"
+  },
+  "keywords": [
+    "json",
+    "schema",
+    "jsonschema",
+    "gui"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-concat-sourcemap": "^0.4.3",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+  "scripts": {
+    "build": "npm install && grunt",
+    "start": "grunt watch",
+    "test": "grunt"
+  }
+}
